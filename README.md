@@ -1,0 +1,2 @@
+# Yolov5_Pytorch_Deteksi_Kesalamatan_Bermotor
+Deteksi Keselamatan Bermotor menggunakan Yolov5 Pytorch dengan bahasa pemograman Python
