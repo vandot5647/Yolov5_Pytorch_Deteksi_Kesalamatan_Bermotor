@@ -31,13 +31,13 @@ Proses training dilakukan menggunakan Google Colab agar lebih mudah diakses tanp
 Langkah umum:
 
 1.	Clone YOLOv5 repository di Google Colab.
-2.	
-3.	Download dataset dari Roboflow (API key atau export langsung).
-4.	
-5.	Jalankan training dengan perintah seperti:
+   
+2.	Download dataset dari Roboflow (API key atau export langsung).
+   
+3.	Jalankan training dengan perintah seperti:
 !python train.py --img 640 --batch 16 --epochs 100 --data data.yaml --weights yolov5s.pt --name deteksi_keselamatan
 
-6.	Simpan hasil training (weights .pt) ke Google Drive untuk inferensi selanjutnya.
+4.	Simpan hasil training (weights .pt) ke Google Drive untuk inferensi selanjutnya.
 ________________________________________
 Kenapa Menarik?
 
@@ -81,14 +81,13 @@ Training
 The training process is performed using Google Colab, making it accessible without requiring a local GPU.
 General steps:
 
-1.	Clone the YOLOv5 repository in Google Colab.
-2.	
-3.	Download the dataset from Roboflow (via API key or direct export).
-4.	
-5.	Run the training command:
+1.	Clone the YOLOv5 repository in Google Colab.	
+2.	Download the dataset from Roboflow (via API key or direct export).
+	
+3.	Run the training command:
 !python train.py --img 640 --batch 16 --epochs 100 --data data.yaml --weights yolov5s.pt --name rider_safety_detection
 
-6.	Save the trained weights (.pt file) to Google Drive for later inference.
+4.	Save the trained weights (.pt file) to Google Drive for later inference.
 ________________________________________
 Why It’s Interesting
 
