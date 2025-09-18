@@ -35,6 +35,7 @@ Langkah umum:
 3.	Jalankan training dengan perintah seperti:
 
 !python train.py --img 640 --batch 16 --epochs 100 --data data.yaml --weights yolov5s.pt --name deteksi_keselamatan
+
 4.	Simpan hasil training (weights .pt) ke Google Drive untuk inferensi selanjutnya.
 ________________________________________
 Kenapa Menarik?
@@ -84,6 +85,7 @@ General steps:
 3.	Run the training command:
 
 !python train.py --img 640 --batch 16 --epochs 100 --data data.yaml --weights yolov5s.pt --name rider_safety_detection
+
 4.	Save the trained weights (.pt file) to Google Drive for later inference.
 ________________________________________
 Why It’s Interesting
